@@ -1,0 +1,251 @@
+@media only screen and (max-width: 414px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .header, .header-menu-left {
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        width: 95%;
+        height: auto;
+        line-height: 50pt;
+        background-color: #FAFAFA;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    .header-menu-left p{
+        border-bottom: 5px dotted black;
+    }
+    .header-menu-right{
+        width: 500px;
+        height: auto;
+    }
+
+    .header-foto{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .header-foto .header-foto1{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .header-foto .header-foto2{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .header-text h1{
+        font-size: 120px;
+        padding-bottom: 50px;
+    }
+
+    .header-text .header-text-p{
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        line-height: 50px;
+        
+    }
+
+    .header-text .header-text-btn{
+        width: 100%;
+        height: 100px;
+        font-size: 50px;
+    }
+
+    .content h1{
+        font-size: 50px;
+    }
+
+    .content p{
+        font-size: 30px;
+    }
+
+
+    .woman-content-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .woman-content-main-first img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .woman-content-main-second h1{
+        font-size: 120px;
+        width: 100%;
+        margin-top: 10px;
+        text-align-last:center;
+        margin-bottom: 30px;
+        
+    }
+    .woman-content-main-second p:nth-child(2){
+        width: 90%;
+        font-size: 50px;
+        text-align: justify;
+        text-align-last:center;
+        margin-bottom: 80px;
+    }
+
+    .woman-content-main-second .woman-content-txt{
+        display: none;
+        
+    }
+
+    .pricing-content p:first-child{
+        font-size: 100px;
+        margin-bottom: 30px;
+        margin-top: 150px;
+    }
+
+    .pricing-content p:nth-child(2){
+        width: 90%;
+        height: auto;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: justify;
+    }
+
+    .no-tiers-content p:nth-of-type(1){
+        width: 100%;
+        font-size: 80px;
+        line-height: normal;
+    }
+
+    .no-tiers-content p:nth-of-type(2){
+        font-size: 50px
+    }
+
+
+    .most-team-content-first{
+        display: flex;
+        flex-direction: column;
+    }
+    .most-team-content-first p{
+        margin-bottom: 50px;
+    }
+
+    .most-team-content-first img{
+        width: 30%;
+    }
+
+    .most-team-content-second{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        
+        
+    }
+    .most-team-content-second div:nth-of-type(1), .most-team-content-second div:nth-of-type(2), .most-team-content-second div:nth-of-type(3){
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .most-team-content-second h5{
+        font-size: 100px;
+    }
+
+    .most-team-content-second h1{
+        font-size: 50px;
+    }
+
+    .most-team-content-second p{
+        font-size: 50px;
+    }
+
+
+
+    .paporotnik-img{
+        display: none;
+    }
+
+    .paporotnik-blank{
+        width: 100%;
+        height: auto;
+        margin-top: -200px;
+        margin-left: -200px;
+    }
+
+    .paporotnik-blank h1{
+        width: 100%;
+        font-size: 100px;
+        margin-bottom: 30px;
+    }
+    .paporotnik-blank p{
+        width: 100%;
+        font-size: 50px;
+        line-height: normal;
+    }
+    .paporotnik-blank button{
+        width: 90%;
+        border-bottom: 5px solid black;
+    }
+
+    .paporotnik-blank-check input{
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .paporotnik-blank-check label{
+        font-size: 50px;
+        margin-left: 30px;
+    }
+
+    .paporotnik-blank .paporotnik-blank-btn{
+        width: 400px;
+        height: 100px;
+        border-radius: 50px;
+    }
+
+    .footer-green .footer-green-img img{
+        width: 100px;
+        margin-bottom: 30px;
+       
+    }
+
+   
+    .footer-green hr{
+        width: 100%;
+        height: 30px;
+        background-color: black;
+        margin-bottom: 30px;
+    }
+
+    .footer-green-txt p {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 30px;
+        
+    }
+
+    .footer-green-txt1 p{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .dfssdfsd{
+        font-size: 50px;
+    }
+    
+    
+
+}
